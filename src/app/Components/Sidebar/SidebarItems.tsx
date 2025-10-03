@@ -7,11 +7,9 @@ import { SidebarProps } from "./Sidebar";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
 export default function SidebarItems({ menuItems }: SidebarProps) {
-  let nestedIndex = 0;
-  menuItems.forEach((el, i) => {
-    el.hasOwnProperty("nested");
-    nestedIndex = i;
-  });
+  const nestedIndex = menuItems.findIndex(
+    (item) => item.nested && item.nested.length > 0
+  );
 
   const [openNested, setOpenNested] = useState(false);
 
