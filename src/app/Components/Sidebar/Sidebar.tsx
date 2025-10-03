@@ -46,7 +46,7 @@ export default function Sidebar({ menuItems }: SidebarProps) {
                       whileInView={{ opacity: 0.5 }}
                       exit={{ opacity: 0 }}
                       onClick={() => setShowSidebar(false)}
-                      className={`w-screen h-screen bg-black z-40 absolute top-0 `}
+                      className={`w-screen h-screen bg-black z-40 fixed top-0 `}
                     ></motion.div>
                     <motion.aside
                       initial={{ x: "100%" }}

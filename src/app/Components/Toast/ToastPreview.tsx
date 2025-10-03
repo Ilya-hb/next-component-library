@@ -8,17 +8,14 @@ export default function ToastPreview() {
       <Toast
         message="You successufully received a message"
         type="success"
-        duration={3000}
       />
       <Toast
         message="You successufully received an error"
         type="error"
-        duration={3000}
       />
       <Toast
         message="You successufully received an info"
         type="info"
-        duration={3000}
       />
     </div>
   );

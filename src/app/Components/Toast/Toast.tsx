@@ -7,10 +7,10 @@ import { X } from "lucide-react";
 interface ToastProps {
   message: string;
   type: "success" | "error" | "info";
-  duration: number;
+  duration?: number;
 }
 
-export default function Toast({ message, type, duration }: ToastProps) {
+export default function Toast({ message, type, duration = 3000 }: ToastProps) {
   const [visible, setIsVisible] = useState(false);
   const [mounted, setIsMounted] = useState(false);
 
