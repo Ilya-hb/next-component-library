@@ -18,11 +18,11 @@ props:
 - clearable
 # Screenshots: 
 # With text
-![Active](<Screenshot 2025-10-03 at 16.22.49.png>)
+![Active](<./Screenshots/Screenshot 2025-10-03 at 16.22.49.png>)
 # Without text
-![No text](<Screenshot 2025-10-03 at 16.23.38.png>)
+![No text](<./Screenshots/Screenshot 2025-10-03 at 16.23.38.png>)
 # Toggle password btn
-![Toggle password](<Screenshot 2025-10-03 at 16.24.23.png>)
+![Toggle password](<./Screenshots/Screenshot 2025-10-03 at 16.24.23.png>)
 
 # Toast.tsx (with animations)
 props:
@@ -32,9 +32,9 @@ props:
 
 # Screenshots:
 # Success type
-![Success](<Screenshot 2025-10-03 at 16.26.30.png>)
+![Success](<./Screenshots/Screenshot 2025-10-03 at 16.26.30.png>)
 # Error type
-![Error](<Screenshot 2025-10-03 at 16.26.44.png>)
+![Error](<./Screenshots/Screenshot 2025-10-03 at 16.26.44.png>)
 # We can also change duration, types, messages via props
 
 # Sidebar.tsx (with animations)
@@ -42,6 +42,6 @@ props:
 - menuItems array of objects
 
 # Opened state without nested objects
-![Opened](<Screenshot 2025-10-03 at 16.31.33.png>)
+![Opened](<./Screenshots/Screenshot 2025-10-03 at 16.31.33.png>)
 # Opened state with nested objects
-![Opened nested](<Screenshot 2025-10-03 at 16.32.57.png>)
+![Opened](<./Screenshots/Screenshot 2025-10-03 at 16.32.57.png>)
