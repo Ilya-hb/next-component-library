@@ -24,6 +24,7 @@ export default function Sidebar({ menuItems }: SidebarProps) {
     setIsMounted(true);
   }, []);
 
+
   return (
     <>
       <button
@@ -68,8 +69,8 @@ export default function Sidebar({ menuItems }: SidebarProps) {
                   </>
                 )}
               </AnimatePresence>
-            </>,
-            document.body
+            </>
+            ,document.body
           )}
       </>
       ,

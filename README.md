@@ -6,31 +6,42 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Storybook
+npm run storybook
 ```
+## Component overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Input.tsx
+props: 
+- type
+- placeholder
+- clearable
+# Screenshots: 
+# With text
+![Active](<Screenshot 2025-10-03 at 16.22.49.png>)
+# Without text
+![No text](<Screenshot 2025-10-03 at 16.23.38.png>)
+# Toggle password btn
+![Toggle password](<Screenshot 2025-10-03 at 16.24.23.png>)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Toast.tsx (with animations)
+props:
+- message
+- type
+- duration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Screenshots:
+# Success type
+![Success](<Screenshot 2025-10-03 at 16.26.30.png>)
+# Error type
+![Error](<Screenshot 2025-10-03 at 16.26.44.png>)
+# We can also change duration, types, messages via props
 
-## Learn More
+# Sidebar.tsx (with animations)
+props:
+- menuItems array of objects
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Opened state without nested objects
+![Opened](<Screenshot 2025-10-03 at 16.31.33.png>)
+# Opened state with nested objects
+![Opened nested](<Screenshot 2025-10-03 at 16.32.57.png>)
